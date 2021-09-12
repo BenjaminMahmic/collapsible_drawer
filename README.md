@@ -1,16 +1,6 @@
 # collasable_drawer
 
-A new Flutter project.
+Animated collasable app drawer
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1](https://user-images.githubusercontent.com/89051381/133000270-57af2639-b30e-464a-a230-02715813b99c.png)
+![Screenshot_2](https://user-images.githubusercontent.com/89051381/133000271-9dccbf62-ec8d-4911-a7c1-5162bc204178.png)
