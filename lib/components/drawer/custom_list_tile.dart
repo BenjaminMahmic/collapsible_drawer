@@ -24,14 +24,13 @@ class CustomListTile extends StatelessWidget {
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 500),
         width: isCollapsed ? 300 : 80,
-        height: 50,
+        height: 40,
         child: Row(
           children: [
             Expanded(
               child: Icon(
                 icon,
                 color: Colors.white,
-                size: 25,
               ),
             ),
             if (isCollapsed) const SizedBox(width: 10),
@@ -46,7 +45,6 @@ class CustomListTile extends StatelessWidget {
                         title,
                         style: const TextStyle(
                           color: Colors.white,
-                          fontSize: 16,
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.clip,
@@ -57,8 +55,8 @@ class CustomListTile extends StatelessWidget {
                         flex: 2,
                         child: Container(
                           margin: const EdgeInsets.only(left: 10),
-                          width: 25,
-                          height: 25,
+                          width: 20,
+                          height: 20,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
                             color: Colors.purple[200],
@@ -86,7 +84,7 @@ class CustomListTile extends StatelessWidget {
                         icon: Icon(
                           doHaveMoreOptions,
                           color: Colors.white,
-                          size: 15,
+                          size: 12,
                         ),
                         onPressed: () {},
                       )

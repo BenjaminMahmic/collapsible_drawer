@@ -24,11 +24,13 @@ class _CustomDrawerState extends State<CustomDrawer> {
         curve: Curves.easeInOutCubic,
         duration: const Duration(milliseconds: 500),
         width: _isCollapsed ? 300 : 80,
-        height: double.infinity,
-        margin: const EdgeInsets.all(10),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          color: const Color.fromRGBO(20, 20, 20, 1),
+        margin: const EdgeInsets.only(bottom: 10, top: 10),
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.only(
+            bottomRight: Radius.circular(10),
+            topRight: Radius.circular(10),
+          ),
+          color: Color.fromRGBO(20, 20, 20, 1),
         ),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
