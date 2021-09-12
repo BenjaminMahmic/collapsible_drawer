@@ -28,9 +28,29 @@ class CustomListTile extends StatelessWidget {
         child: Row(
           children: [
             Expanded(
-              child: Icon(
-                icon,
-                color: Colors.white,
+              child: Center(
+                child: Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    Icon(
+                      icon,
+                      color: Colors.white,
+                    ),
+                    if (infoCount > 0)
+                      Positioned(
+                        right: -5,
+                        top: -5,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: Colors.red,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
               ),
             ),
             if (isCollapsed) const SizedBox(width: 10),
