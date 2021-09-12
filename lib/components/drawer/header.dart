@@ -16,13 +16,9 @@ class CustomDrawerHeader extends StatelessWidget {
       height: 60,
       width: double.infinity,
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          isColapsed
-              ? const Align(
-                  alignment: Alignment.center,
-                  child: FlutterLogo(size: 30),
-                )
-              : const FlutterLogo(size: 30),
+          const FlutterLogo(size: 30),
           if (isColapsed) const SizedBox(width: 10),
           if (isColapsed)
             const Expanded(
@@ -37,7 +33,7 @@ class CustomDrawerHeader extends StatelessWidget {
                 maxLines: 1,
               ),
             ),
-          const Spacer(),
+          if (isColapsed) const Spacer(),
           if (isColapsed)
             Expanded(
               flex: 1,
