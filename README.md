@@ -2,5 +2,5 @@
 
 Animated collasable app drawer
 
-![Screenshot_1](https://user-images.githubusercontent.com/89051381/133000270-57af2639-b30e-464a-a230-02715813b99c.png)
-![Screenshot_2](https://user-images.githubusercontent.com/89051381/133000271-9dccbf62-ec8d-4911-a7c1-5162bc204178.png)
+![Screenshot_1](https://user-images.githubusercontent.com/89051381/134048811-ecef00db-c42a-4849-9c35-baca0439eb56.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/89051381/134048816-7548c56b-4d6f-43eb-89c1-1915ac6fd967.jpg)
