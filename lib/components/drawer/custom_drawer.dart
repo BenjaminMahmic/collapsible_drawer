@@ -1,11 +1,7 @@
-import 'dart:ui';
-
 import 'package:collasable_drawer/components/drawer/bottom_user_info.dart';
 import 'package:collasable_drawer/components/drawer/custom_list_tile.dart';
 import 'package:collasable_drawer/components/drawer/header.dart';
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class CustomDrawer extends StatefulWidget {
   const CustomDrawer({Key? key}) : super(key: key);
